@@ -9,6 +9,10 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+app.get('/',(req,res)=>{
+  res.send(`<h1>Welcome in Physio Backend</h1>`);
+})
+
 app.post('/api/login_v1', (req, res) => {
   const token = jwt.sign({ uid: userDetails.uid }, secret_key, {
     expiresIn: '5d',
