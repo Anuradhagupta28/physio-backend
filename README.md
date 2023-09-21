@@ -62,3 +62,9 @@ Start the backend server:
    Endpoints : /api/login_v1   (Generate token and verify by its credentials)
    <br>
    Endpoints : /api/dashboard  (After successful login move to welcome dashboard)
+
+## Backend Deployment URL
+
+<strong>
+  <a href="https://physio-backend.onrender.com/">Click Here</a>
+</strong>
