@@ -4,6 +4,6 @@ const dashboardRouter = express.Router();
 const dashboardContorller = require('../controllers/dashboardController')
 
 // dashboard Routes
-dashboardRouter.post('/dashboard',dashboardContorller.dashboardControllerDetails);
+dashboardRouter.get('/dashboard',dashboardContorller.dashboardControllerDetails);
 
 module.exports = { dashboardRouter };
