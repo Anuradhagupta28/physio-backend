@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get('/',(req,res)=>{
-  res.send(`<h1>Welcome in Physio Backend</h1>`);
+  res.send(`<h1 style="text-align:center">Welcome in Physio Backend</h1>`);
 })
 
 app.post('/api/login_v1', (req, res) => {
